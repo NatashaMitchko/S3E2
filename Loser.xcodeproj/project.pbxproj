@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB164661F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
+		6EB164671F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
+		6EB164681F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
+		6EB1646A1F3A443900C240D5 /* worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164691F3A443900C240D5 /* worm.png */; };
+		6EB1646B1F3A443900C240D5 /* worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164691F3A443900C240D5 /* worm.png */; };
+		6EB1646C1F3A443900C240D5 /* worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164691F3A443900C240D5 /* worm.png */; };
 		6EC873741F38F86600E2BA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC873731F38F86600E2BA40 /* main.m */; };
 		6EC873771F38F86600E2BA40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC873761F38F86600E2BA40 /* AppDelegate.m */; };
 		6EC8737A1F38F86600E2BA40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC873791F38F86600E2BA40 /* ViewController.m */; };
@@ -39,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EB164651F3A30E500C240D5 /* loser-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loser-blue.png"; sourceTree = "<group>"; };
+		6EB164691F3A443900C240D5 /* worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worm.png; sourceTree = "<group>"; };
 		6EC8736F1F38F86600E2BA40 /* Loser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC873731F38F86600E2BA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EC873751F38F86600E2BA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,7 +133,9 @@
 		6EC873721F38F86600E2BA40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EB164651F3A30E500C240D5 /* loser-blue.png */,
 				6EC873A81F38F88B00E2BA40 /* loser.wav */,
+				6EB164691F3A443900C240D5 /* worm.png */,
 				6EC873731F38F86600E2BA40 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -265,8 +275,10 @@
 			files = (
 				6EC873821F38F86600E2BA40 /* LaunchScreen.storyboard in Resources */,
 				6EC8737F1F38F86600E2BA40 /* Assets.xcassets in Resources */,
+				6EB1646A1F3A443900C240D5 /* worm.png in Resources */,
 				6EC873A91F38F88B00E2BA40 /* loser.wav in Resources */,
 				6EC8737D1F38F86600E2BA40 /* Main.storyboard in Resources */,
+				6EB164661F3A30E500C240D5 /* loser-blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC873AA1F38F88B00E2BA40 /* loser.wav in Resources */,
+				6EB164671F3A30E500C240D5 /* loser-blue.png in Resources */,
+				6EB1646B1F3A443900C240D5 /* worm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC873AB1F38F88B00E2BA40 /* loser.wav in Resources */,
+				6EB164681F3A30E500C240D5 /* loser-blue.png in Resources */,
+				6EB1646C1F3A443900C240D5 /* worm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +545,7 @@
 				6EC8739E1F38F86600E2BA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EC8739F1F38F86600E2BA40 /* Build configuration list for PBXNativeTarget "LoserTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +554,7 @@
 				6EC873A11F38F86600E2BA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EC873A21F38F86600E2BA40 /* Build configuration list for PBXNativeTarget "LoserUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +563,7 @@
 				6EC873A41F38F86600E2BA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
