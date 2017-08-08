@@ -25,5 +25,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)LoserButton:(id)sender {
+    SystemSoundID soundID;
+    
+    NSString *SoundPath = [[NSBundle mainBundle] pathForResource:@"loser" ofType:@"wav"];
+    NSURL *soundURL = [NSURL fileURLWithPath:SoundPath];
+    
+    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)soundURL, &soundID);
+    AudioServicesPlaySystemSound(soundID);
+}
 @end

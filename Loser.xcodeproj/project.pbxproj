@@ -15,6 +15,10 @@
 		6EC873821F38F86600E2BA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC873801F38F86600E2BA40 /* LaunchScreen.storyboard */; };
 		6EC8738D1F38F86600E2BA40 /* LoserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8738C1F38F86600E2BA40 /* LoserTests.m */; };
 		6EC873981F38F86600E2BA40 /* LoserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC873971F38F86600E2BA40 /* LoserUITests.m */; };
+		6EC873A71F38F87A00E2BA40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC873A61F38F87A00E2BA40 /* AudioToolbox.framework */; };
+		6EC873A91F38F88B00E2BA40 /* loser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EC873A81F38F88B00E2BA40 /* loser.wav */; };
+		6EC873AA1F38F88B00E2BA40 /* loser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EC873A81F38F88B00E2BA40 /* loser.wav */; };
+		6EC873AB1F38F88B00E2BA40 /* loser.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EC873A81F38F88B00E2BA40 /* loser.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		6EC873931F38F86600E2BA40 /* LoserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC873971F38F86600E2BA40 /* LoserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoserUITests.m; sourceTree = "<group>"; };
 		6EC873991F38F86600E2BA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC873A61F38F87A00E2BA40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6EC873A81F38F88B00E2BA40 /* loser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loser.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC873A71F38F87A00E2BA40 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,7 @@
 				6EC8738B1F38F86600E2BA40 /* LoserTests */,
 				6EC873961F38F86600E2BA40 /* LoserUITests */,
 				6EC873701F38F86600E2BA40 /* Products */,
+				6EC873A51F38F87A00E2BA40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +125,7 @@
 		6EC873721F38F86600E2BA40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EC873A81F38F88B00E2BA40 /* loser.wav */,
 				6EC873731F38F86600E2BA40 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +147,14 @@
 				6EC873991F38F86600E2BA40 /* Info.plist */,
 			);
 			path = LoserUITests;
+			sourceTree = "<group>";
+		};
+		6EC873A51F38F87A00E2BA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EC873A61F38F87A00E2BA40 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +265,7 @@
 			files = (
 				6EC873821F38F86600E2BA40 /* LaunchScreen.storyboard in Resources */,
 				6EC8737F1F38F86600E2BA40 /* Assets.xcassets in Resources */,
+				6EC873A91F38F88B00E2BA40 /* loser.wav in Resources */,
 				6EC8737D1F38F86600E2BA40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC873AA1F38F88B00E2BA40 /* loser.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC873AB1F38F88B00E2BA40 /* loser.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
