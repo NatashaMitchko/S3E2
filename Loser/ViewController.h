@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AudioToolbox/AudioToolbox.h>
 
 @interface ViewController : UIViewController
 
-- (IBAction)LoserButton:(id)sender;
+- (IBAction)playLoserSound:(id)sender;
 
 
 @end

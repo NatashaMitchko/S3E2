@@ -21,29 +21,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltm-Xf-Tsg">
-                                <rect key="frame" x="110" y="248" width="171" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Loser"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltm-Xf-Tsg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <connections>
-                                    <action selector="LoserButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iFp-i9-ZRJ"/>
+                                    <action selector="playLoserSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaI-o7-KaN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="worm.png" translatesAutoresizingMaskIntoConstraints="NO" id="SH7-1F-V36">
-                                <rect key="frame" x="24" y="0.0" width="375" height="677.00000000000011"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75294117647058822" green="0.53333333333333333" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="worm.png" translatesAutoresizingMaskIntoConstraints="NO" id="WbK-eQ-sqD">
+                                <rect key="frame" x="16.5" y="214" width="374" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="QJ0-RK-0Ve"/>
+                                    <constraint firstAttribute="height" constant="199" id="WsE-YT-tHL"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.75294117647058822" green="0.53333333333333333" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ltm-Xf-Tsg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3YT-Sc-BQG"/>
+                            <constraint firstItem="WbK-eQ-sqD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="16" id="4Nf-YY-mtM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ltm-Xf-Tsg" secondAttribute="bottom" id="AEv-1R-hXl"/>
+                            <constraint firstItem="ltm-Xf-Tsg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QUM-43-kjh"/>
+                            <constraint firstItem="WbK-eQ-sqD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="bHT-5S-Jua"/>
+                            <constraint firstAttribute="trailing" secondItem="ltm-Xf-Tsg" secondAttribute="trailing" id="dyJ-ES-PTh"/>
+                        </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="38"/>
+            <point key="canvasLocation" x="45.600000000000001" y="37.331334332833585"/>
         </scene>
     </scenes>
     <resources>
-        <image name="worm.png" width="1500" height="2100"/>
+        <image name="worm.png" width="629" height="527"/>
     </resources>
 </document>

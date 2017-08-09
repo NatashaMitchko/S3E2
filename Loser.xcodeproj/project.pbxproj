@@ -234,6 +234,7 @@
 				TargetAttributes = {
 					6EC8736E1F38F86600E2BA40 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 54KXTTN65K;
 						ProvisioningStyle = Automatic;
 					};
 					6EC873871F38F86600E2BA40 = {
@@ -462,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54KXTTN65K;
 				INFOPLIST_FILE = Loser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Natasha.Loser;
@@ -473,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54KXTTN65K;
 				INFOPLIST_FILE = Loser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Natasha.Loser;
