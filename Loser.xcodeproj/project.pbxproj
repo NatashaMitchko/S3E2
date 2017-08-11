@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E30BA931F3E15B300913681 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E30BA921F3E15B300913681 /* Stickers.xcassets */; };
+		6E30BA971F3E15B300913681 /* Loser Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E30BA901F3E15B300913681 /* Loser Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6EB164661F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
 		6EB164671F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
 		6EB164681F3A30E500C240D5 /* loser-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB164651F3A30E500C240D5 /* loser-blue.png */; };
@@ -28,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6E30BA951F3E15B300913681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC873671F38F86600E2BA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E30BA8F1F3E15B300913681;
+			remoteInfo = "Loser Stickers";
+		};
 		6EC873891F38F86600E2BA40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EC873671F38F86600E2BA40 /* Project object */;
@@ -44,7 +53,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6E30BA9B1F3E15B300913681 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E30BA971F3E15B300913681 /* Loser Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6E30BA901F3E15B300913681 /* Loser Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Loser Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E30BA921F3E15B300913681 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		6E30BA941F3E15B300913681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB164651F3A30E500C240D5 /* loser-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loser-blue.png"; sourceTree = "<group>"; };
 		6EB164691F3A443900C240D5 /* worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worm.png; sourceTree = "<group>"; };
 		6EC8736F1F38F86600E2BA40 /* Loser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,12 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E30BA911F3E15B300913681 /* Loser Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				6E30BA921F3E15B300913681 /* Stickers.xcassets */,
+				6E30BA941F3E15B300913681 /* Info.plist */,
+			);
+			path = "Loser Stickers";
+			sourceTree = "<group>";
+		};
 		6EC873661F38F86600E2BA40 = {
 			isa = PBXGroup;
 			children = (
 				6EC873711F38F86600E2BA40 /* Loser */,
 				6EC8738B1F38F86600E2BA40 /* LoserTests */,
 				6EC873961F38F86600E2BA40 /* LoserUITests */,
+				6E30BA911F3E15B300913681 /* Loser Stickers */,
 				6EC873701F38F86600E2BA40 /* Products */,
 				6EC873A51F38F87A00E2BA40 /* Frameworks */,
 			);
@@ -110,6 +146,7 @@
 				6EC8736F1F38F86600E2BA40 /* Loser.app */,
 				6EC873881F38F86600E2BA40 /* LoserTests.xctest */,
 				6EC873931F38F86600E2BA40 /* LoserUITests.xctest */,
+				6E30BA901F3E15B300913681 /* Loser Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +207,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6E30BA8F1F3E15B300913681 /* Loser Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E30BA9A1F3E15B300913681 /* Build configuration list for PBXNativeTarget "Loser Stickers" */;
+			buildPhases = (
+				6E30BA8E1F3E15B300913681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loser Stickers";
+			productName = "Loser Stickers";
+			productReference = 6E30BA901F3E15B300913681 /* Loser Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		6EC8736E1F38F86600E2BA40 /* Loser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC8739C1F38F86600E2BA40 /* Build configuration list for PBXNativeTarget "Loser" */;
@@ -177,10 +229,12 @@
 				6EC8736B1F38F86600E2BA40 /* Sources */,
 				6EC8736C1F38F86600E2BA40 /* Frameworks */,
 				6EC8736D1F38F86600E2BA40 /* Resources */,
+				6E30BA9B1F3E15B300913681 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E30BA961F3E15B300913681 /* PBXTargetDependency */,
 			);
 			name = Loser;
 			productName = Loser;
@@ -232,6 +286,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Natasha Mitchko";
 				TargetAttributes = {
+					6E30BA8F1F3E15B300913681 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 54KXTTN65K;
+						ProvisioningStyle = Automatic;
+					};
 					6EC8736E1F38F86600E2BA40 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 54KXTTN65K;
@@ -265,11 +324,20 @@
 				6EC8736E1F38F86600E2BA40 /* Loser */,
 				6EC873871F38F86600E2BA40 /* LoserTests */,
 				6EC873921F38F86600E2BA40 /* LoserUITests */,
+				6E30BA8F1F3E15B300913681 /* Loser Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E30BA8E1F3E15B300913681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E30BA931F3E15B300913681 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC8736D1F38F86600E2BA40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +403,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6E30BA961F3E15B300913681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E30BA8F1F3E15B300913681 /* Loser Stickers */;
+			targetProxy = 6E30BA951F3E15B300913681 /* PBXContainerItemProxy */;
+		};
 		6EC8738A1F38F86600E2BA40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6EC8736E1F38F86600E2BA40 /* Loser */;
@@ -367,6 +440,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6E30BA981F3E15B300913681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 54KXTTN65K;
+				INFOPLIST_FILE = "Loser Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha.Loser.Loser-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E30BA991F3E15B300913681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 54KXTTN65K;
+				INFOPLIST_FILE = "Loser Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha.Loser.Loser-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		6EC8739A1F38F86600E2BA40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +629,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E30BA9A1F3E15B300913681 /* Build configuration list for PBXNativeTarget "Loser Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E30BA981F3E15B300913681 /* Debug */,
+				6E30BA991F3E15B300913681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6EC8736A1F38F86600E2BA40 /* Build configuration list for PBXProject "Loser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
